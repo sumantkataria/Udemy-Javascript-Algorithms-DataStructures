@@ -5,11 +5,19 @@ Solution to various problems in Udemy for Algorithms &amp; Data Structures in Ja
 # Each type of Data structure represents a different way of organising the data
 # Have big impact on how performant, quick & efficiently a program runs
 
+# Big-O nottion measures number of operations
+# Space compexity -
+# - Primitives are constant space.
+# - Strings require O(n) space(where n is the string length)
+# - Reference types are generally O(n), where n is the length(for arrays) or the number of keys(for objects)
 # Linked List - 
+# 1. Memory Management benefits-
+# - Data does not have to be stored together.
+# - 
 # 1. Fast at Storing data & not retrieving
 # 2. Maintain Head & Tail of LL
-# 3. Add/Remove new Node to/from Head
-# 4. Add/Remove new Node to/from Tail
+# 3. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
+# 4. Search Linked List(Time Complexity - O(n))
 
 # Hash Table  -
 # 1. Access data quickly
