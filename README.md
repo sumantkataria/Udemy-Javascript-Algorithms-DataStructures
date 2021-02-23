@@ -5,11 +5,17 @@ Solution to various problems in Udemy for Algorithms &amp; Data Structures in Ja
 # Each type of Data structure represents a different way of organising the data
 # Have big impact on how performant, quick & efficiently a program runs
 
-# Big-O nottion measures number of operations
+# Big-O notation measures number of operations
 # Space compexity -
 # - Primitives are constant space.
 # - Strings require O(n) space(where n is the string length)
 # - Reference types are generally O(n), where n is the length(for arrays) or the number of keys(for objects)
+
+# Problem Solving Patterns -
+# 1. Frequency Counters
+# - This pattern uses objects or sets to collect values/frequencies of values
+# - This can often avoid the need for O(n^2) operations with arrays/strings
+
 # Linked List - 
 # 1. Memory Management benefits-
 # - Data does not have to be stored together.
