@@ -12,8 +12,10 @@ const handleClick = () => {
       frequencyCounter2[item] = (frequencyCounter2[item] || 0) + 1
     }
     for(let item in frequencyCounter1) {
+			// Compare keys
       if(!(item*item in frequencyCounter2)) return false
-      if(frequencyCounter2[item*item] !== frequencyCounter1[item]) return false
+      // Compare values
+			if(frequencyCounter2[item*item] !== frequencyCounter1[item]) return false
     }
     return true
 }
