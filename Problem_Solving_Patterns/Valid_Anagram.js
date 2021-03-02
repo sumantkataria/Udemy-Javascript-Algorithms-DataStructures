@@ -1,3 +1,10 @@
+/**
+ * Frequency Counter Pattern
+ * str1 = 'anagram', str2 = 'nagaram'
+ * str1 = '', str2 = ''
+ * str1 = 'act', str2 = 'cat'
+ * str1 = 'texttwisttime', str2 = 'timetwisttext'
+ */
 const validAnagram = (str1, str2) => {
 
     if(str1.length !== str2.length) return false
