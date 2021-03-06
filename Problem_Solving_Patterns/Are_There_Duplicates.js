@@ -5,5 +5,5 @@
  * areThereDuplicates('a', 'b', 'c' , 'a') // true
  */
 const areThereDuplicates = (...numbers) => {
-    return (new Set(numbers).length !== numbers.length)
+    return (new Set(numbers).size !== numbers.length)
   }
