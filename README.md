@@ -25,7 +25,11 @@
 # 4. Divide & Conquer Pattern
 # - This pattern involves dividing a data set into smaller chunks & then repeating a process with a subset of data.
 # - This pattern can tremendously decrease time complexity.
- 
+
+# Recursion-
+# - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
+# - Used in Object traversals.
+
 # Linked List - 
 # 1. Memory Management benefits-
 # - Data does not have to be stored together.
