@@ -8,3 +8,9 @@ function fib(num, sum, count = 1, first = 0, second = 1) {
     sum = first + second; first = second; second = sum 
     return fib(num, sum, ++count, first, second)
 }
+
+// Alternate Solution
+// function fib(n) s{
+//     if (n <= 2) return 1;
+//     return fib(n-1) + fib(n-2);
+// }
