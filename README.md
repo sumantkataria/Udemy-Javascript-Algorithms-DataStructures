@@ -26,6 +26,12 @@
 # - This pattern involves dividing a data set into smaller chunks & then repeating a process with a subset of data.
 # - This pattern can tremendously decrease time complexity.
 
+# Searching
+# - Searching is the process of finding item from the collection/list.
+
+# Sorting
+# -Sorting is the process of rearranging the items in the collection(e.g. an array) so that the items are in some kind of order.
+
 # Recursion-
 # - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
 # - Used in Object traversals.
