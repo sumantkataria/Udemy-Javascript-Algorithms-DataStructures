@@ -31,6 +31,7 @@
 
 # Sorting
 # -Sorting is the process of rearranging the items in the collection(e.g. an array) so that the items are in some kind of order.
+# Comparison - https://www.toptal.com/developers/sorting-algorithms
 
 # Recursion-
 # - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
