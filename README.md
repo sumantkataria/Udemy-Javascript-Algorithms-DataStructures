@@ -10,6 +10,7 @@
 # - Primitives are constant space.
 # - Strings require O(n) space(where n is the string length)
 # - Reference types are generally O(n), where n is the length(for arrays) or the number of keys(for objects)
+# Big-O Cheat Sheet -  https://www.bigocheatsheet.com/
 
 # Problem Solving Patterns -
 # 1. Frequency Counters -
@@ -31,6 +32,11 @@
 
 # Sorting
 # -Sorting is the process of rearranging the items in the collection(e.g. an array) so that the items are in some kind of order.
+# Bubble Sort - O(n^2)
+# Insertion Sort - O(n^2)
+# Selection Sort - O(n^2)
+# Merge Sort - O(n*logn)
+
 # Comparison - https://www.toptal.com/developers/sorting-algorithms
 
 # Recursion-
