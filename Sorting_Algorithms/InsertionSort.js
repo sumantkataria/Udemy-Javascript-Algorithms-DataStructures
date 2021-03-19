@@ -1,12 +1,12 @@
 const insertionSort = (arr) => {
 
-    let len = arr.length, min
-    for(let i=0; i<len; i++) {
-        min = i
-        for(let j=i+1; j<len; j++) {
-            if(arr[j] < arr[min]) min = j
+    var currentVal;
+    for(var i = 1; i < arr.length; i++){
+        currentVal = arr[i];
+        for(var j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
+            arr[j+1] = arr[j]
         }
-        [arr[i], arr[min]] = [arr[min], arr[i]]
+        arr[j+1] = currentVal;
     }
-    return arr
+    return arr;
 }
