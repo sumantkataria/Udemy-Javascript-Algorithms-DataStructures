@@ -36,17 +36,29 @@
 # Insertion Sort - O(n^2)
 # Selection Sort - O(n^2)
 # Merge Sort - O(n*logn)
-
+# Quick Sort - O(n*logn)
+# Radix Sort - O(n*logn)
 # Comparison - https://www.toptal.com/developers/sorting-algorithms
 
-# Recursion-
+# Radix Sort - Sorts numbers only.
+
+# Recursion -
 # - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
 # - Used in Object traversals.
+
+# Arrays -
+# 1. Indexed in Order.
+# 2. Insertion & Deletion can be expensive.
+# 3. Can quickly be accessed at a specific index.
 
 # Linked List - 
 # 1. Memory Management benefits-
 # - Data does not have to be stored together.
-# - 
+# Features -
+# 1. Do not have indexes.
+# 2. Connected via nodes with a next pointer.
+# 3. Random access not allowed.
+
 # 1. Fast at Storing data & not retrieving
 # 2. Maintain Head & Tail of LL
 # 3. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
