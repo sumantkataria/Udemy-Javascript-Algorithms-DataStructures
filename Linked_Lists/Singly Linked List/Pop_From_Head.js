@@ -22,6 +22,7 @@ class SinglyLinkedList {
         return this 
     }
 
+    //Shift
     popFromHead () {
         if(!this.head) return undefined
         let node = this.head

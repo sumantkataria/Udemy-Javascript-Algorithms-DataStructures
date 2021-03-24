@@ -12,6 +12,7 @@ class SinglyLinkedList {
         this.length = 0
     }
 
+    //Unshift
     pushToHead (val) {
         let newNode = new Node(val);
         if(!this.head) {
