@@ -64,6 +64,12 @@
 # 3. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
 # 4. Search Linked List(Time Complexity - O(n))
 
+# BIG O - Singly Linked List -
+# 1. Insertion - O(1)
+# 2. Deletion - O(1) or O(n)
+# 3. Searching - O(n)
+# 4. Accessing - O(n)
+
 # Hash Table  -
 # 1. Access data quickly
 
