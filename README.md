@@ -70,6 +70,12 @@
 # 3. Searching - O(n)
 # 4. Accessing - O(n)
 
+# BIG O - Doubly Linked List -
+# 1. Insertion - O(1)
+# 2. Deletion - O(1)
+# 3. Searching - O(n)
+# 4. Accessing - O(n)
+
 # Hash Table  -
 # 1. Access data quickly
 
