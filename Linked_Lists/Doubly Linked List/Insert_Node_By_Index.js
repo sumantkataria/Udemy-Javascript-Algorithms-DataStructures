@@ -27,25 +27,31 @@ class DoublyLinkedList {
     }
 
     setNodeByIndex (index, val) {
-        if(index < 0 || index > this.length) return false
-        // Set at Head
+        if(index < 0 || index > this.length) return null
+        let newNode = new Node(val)
+        // Insert at Head
         if(index === 0) {
-            this.head.val = val
-            return true
+            this.head.prev = newNode
+            newNode.next = this.head
+            this.head = newNode
         }
-        //Set at tail
+        //Insert at tail
         else if(index === this.length) {
-            this.tail.val = val
-            return true
+            this.tail.next = newNode
+            newNode.prev = this.tail
+            this.tail = newNode
         }
-        // Set at any node
+        // Insert at any node
         else {
             if(index*2 < this.length) {
                 let currentNode = this.head, count = 1
                 while(currentNode.next) {
                     if(index === count) {
-                        currentNode.next.val = val
-                        return true;
+                        newNode.next = currentNode.next
+                        currentNode.next.prev = newNode
+                        currentNode.next = newNode
+                        newNode.prev = currentNode
+                        break;
                     } else {
                         currentNode = currentNode.next; count++
                     }
@@ -54,14 +60,17 @@ class DoublyLinkedList {
                 let currentNode = this.tail, count = this.length-1
                 while(currentNode.prev) {
                     if(index === count) {
-                        currentNode.prev.val = val
-                        return true;
+                        newNode.prev = currentNode.prev
+                        currentNode.prev.next = newNode
+                        currentNode.prev = newNode
+                        newNode.next = currentNode
+                        break;
                     } else {
                         currentNode = currentNode.prev; count--
                     }
                 }
             }
-            return false
+            this.length++
         }
     }
 }
