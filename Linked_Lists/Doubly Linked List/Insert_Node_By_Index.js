@@ -70,7 +70,8 @@ class DoublyLinkedList {
                     }
                 }
             }
-            this.length++
+            this.length++;
+            return this
         }
     }
 }
