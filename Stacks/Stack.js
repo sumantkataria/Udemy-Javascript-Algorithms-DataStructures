@@ -36,7 +36,7 @@ class Stack {
             poppedNode.next = null
         }
         this.size--;
-        return poppedNode;
+        return poppedNode.val;
     }
 }
 

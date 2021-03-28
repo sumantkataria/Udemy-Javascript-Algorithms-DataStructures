@@ -81,6 +81,26 @@
 # - Can be implemented via Array.
 # - push method to insert & pop method to remove
 # - unshift method to insert & shift method to remove
+# - not a built-in structure in Javascript
+
+# BIG O - Stacks -
+# 1. Insertion - O(1)
+# 2. Deletion - O(1)
+# 3. Searching - O(n)
+# 4. Accessing - O(n)
+
+# Queues -
+# FIFO(First In First Out) data structure.
+# - Can be implemented via Array.
+# - push method to insert & shift method to remove
+# - unshift method to insert & pop method to remove
+
+# - BIG O - Queues -
+# 1. Insertion - O(1)
+# 2. Deletion - O(1)
+# 3. Searching - O(n)
+# 4. Accessing - O(n)
+
 # Hash Table  -
 # 1. Access data quickly
 
