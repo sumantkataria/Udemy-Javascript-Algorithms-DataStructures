@@ -32,7 +32,8 @@ class Stack {
         if(this.size === 1) {
             this.first = null; this.last = null;
         } else {
-            this.first = poppedNode.next
+            this.first = poppedNode.next;
+            poppedNode.next = null
         }
         this.size--;
         return poppedNode;
