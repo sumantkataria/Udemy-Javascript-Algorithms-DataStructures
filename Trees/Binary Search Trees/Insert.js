@@ -33,9 +33,11 @@ class BinarySearchTree {
         } else if(currentNode.val < newNode.val) {
             // set to right node
             currentNode.right = newNode
-        } else {
+        } else if(currentNode.val > newNode.val) {
             // set to left node
             currentNode.left = newNode
+        } else {
+            return undefined;
         }
     }
 }
