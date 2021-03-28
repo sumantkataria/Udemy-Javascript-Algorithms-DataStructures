@@ -101,6 +101,27 @@
 # 3. Searching - O(n)
 # 4. Accessing - O(n)
 
+# Trees -
+# Data Structure that consists of nodes in a parent/child relationship. 
+# Terminologies -
+# 1. Root - Top node of a tree.
+# 2. Child - Node directly connected to another node when moving away from the root.
+# 3. Parent - converse notion of the child.
+# 4. Siblings - group of nodes with the same parent.
+# 5. Leaf - Node with no children.
+# 6. Edge - connection between one node & another.
+# Applications-
+# 1. HTML DOM
+# 2. Network Routing(broadcast)
+# 3. Abstract syntax tree
+# 4. Artifical Intelligence
+# 5. Computer file system(Windows folder/file structure)
+# 6. JSON structure
+# Types -
+# 1. Trees
+# 2. Binary Trees(max 2 child nodes)
+# 3. Binary Search Trees(special type of binary trees)(sorted)(left node is smaller than parent & every right node is greater than parent)
+
 # Hash Table  -
 # 1. Access data quickly
 
