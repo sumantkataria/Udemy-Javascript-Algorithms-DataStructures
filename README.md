@@ -76,6 +76,11 @@
 # 3. Searching - O(n)
 # 4. Accessing - O(n)
 
+# Stacks -
+# - LIFO(Last In First Out) data structure.
+# - Can be implemented via Array.
+# - push method to insert & pop method to remove
+# - unshift method to insert & shift method to remove
 # Hash Table  -
 # 1. Access data quickly
 
