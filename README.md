@@ -122,6 +122,10 @@
 # 2. Binary Trees(max 2 child nodes)
 # 3. Binary Search Trees(special type of binary trees)(sorted)(left node is smaller than parent & every right node is greater than parent)
 
+# BIG O - Binary Search Tree -
+# 1. Insertion - O(log n)
+# 2. Searching - O(log n)
+
 # Hash Table  -
 # 1. Access data quickly
 
