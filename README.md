@@ -102,7 +102,7 @@
 # 4. Accessing - O(n)
 
 # Trees -
-# Data Structure that consists of nodes in a parent/child relationship. 
+# Non-linear Data Structure that consists of nodes in a parent/child relationship. 
 # Terminologies -
 # 1. Root - Top node of a tree.
 # 2. Child - Node directly connected to another node when moving away from the root.
@@ -125,6 +125,11 @@
 # BIG O - Binary Search Tree -
 # 1. Insertion - O(log n)
 # 2. Searching - O(log n)
+
+# Tree Traversal -
+# Applications - DFS -
+# InOrder - Used commonly with BST.
+# PreOrder - Used in export cases (where clone/duplicate tree or flatten it out & then import)
 
 # Hash Table  -
 # 1. Access data quickly
