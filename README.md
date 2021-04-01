@@ -131,6 +131,17 @@
 # InOrder - Used commonly with BST.
 # PreOrder - Used in export cases (where clone/duplicate tree or flatten it out & then import)
 
+# Heaps -
+# Special tree-based data structure in which the tree is a complete binary tree. 
+# Types -
+# 1. MaxBinaryHeap - Parent nodes are larger than the children. And left children are fille out first.
+# 2. MinBinaryHeap - Parent nodes are smaller than the children.
+# Storing heaps -
+# - For any index of an array n...
+# - Left child is stored at 2n + 1.
+# - Right child is stored at 2n + 2.
+# - For any child at index n...
+# - It's parent is at index (n-1)/2.
 # Hash Table  -
 # 1. Access data quickly
 
