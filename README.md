@@ -151,6 +151,9 @@
 # 2. Deletion - O(log n)
 # 3. Search - O(n)
 
-# Hash Table
-# 1. Access data quickly
-
+# Hash Tables -
+# - Access data quickly
+# - used to store key-value pairs.
+# - like arrays, but keya are not ordered.
+# - very fast for all operations - finding values, adding new values & removing values.
+# - JS has Objects & Maps.
