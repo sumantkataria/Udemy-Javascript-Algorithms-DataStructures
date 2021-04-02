@@ -142,6 +142,11 @@
 # - Right child is stored at 2n + 2.
 # - For any child at index n...
 # - It's parent is at index (n-1)/2.
+
+# Priority Queues -
+# - data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities.
+# - can be implemented via Heaps.
+
 # Hash Table  -
 # 1. Access data quickly
 
