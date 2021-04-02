@@ -146,7 +146,11 @@
 # Priority Queues -
 # - data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities.
 # - can be implemented via Heaps.
+# BIG O - Binary Heaps -
+# 1. Insertion - O(log n)
+# 2. Deletion - O(log n)
+# 3. Search - O(n)
 
-# Hash Table  -
+# Hash Table
 # 1. Access data quickly
 
