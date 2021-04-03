@@ -157,3 +157,7 @@
 # - like arrays, but keya are not ordered.
 # - very fast for all operations - finding values, adding new values & removing values.
 # - JS has Objects & Maps.
+# BIG O - Hash Tables -
+# 1. Insertion - O(1)
+# 2. Deletion - O(1)
+# 3. Access - O(1)
