@@ -154,10 +154,24 @@
 # Hash Tables -
 # - Access data quickly
 # - used to store key-value pairs.
-# - like arrays, but keya are not ordered.
+# - like arrays, but keys are not ordered.
 # - very fast for all operations - finding values, adding new values & removing values.
 # - JS has Objects & Maps.
 # BIG O - Hash Tables -
 # 1. Insertion - O(1)
 # 2. Deletion - O(1)
 # 3. Access - O(1)
+
+# Graphs -
+# - a DS consists of a finite set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
+# Applications -
+# 1. Social networks
+# 2. Location/mapping
+# 3. Routing algorithms
+# 4. Visual Hierarchy
+# 5. File system optimizations
+# Terms -
+# 1. Vertex - a node
+# 2. Edge - connection between nodes
+# 3. Weighted/Unweighted - values assigned
+# 4. Directed(insta)/Undirected(fb) - 
