@@ -30,6 +30,16 @@ class Graph {
             }
         } else return undefined
     }
+
+    removeVertex (vertex) {
+        if(Object.keys(this.adjacencyList).length) {
+            while(this.adjacencyList[vertex].length) {
+                const vertex2 = this.adjacencyList[vertex].pop()
+                this.removeEdge(vertex, vertex2)
+            }
+            delete this.adjacencyList[vertex]
+        } else return undefined
+    }
 }
 
 let g = new Graph()
@@ -44,4 +54,4 @@ g.addEdge('Delhi', 'Mumbai')
 g.addEdge('Delhi', 'Chennai')
 g.addEdge('Delhi', 'Kolkata')
 g.addEdge('Mumbai', 'Chennai')
-g.removeEdge('Delhi', 'Mumbai')
+g.removeVertex('Delhi')
