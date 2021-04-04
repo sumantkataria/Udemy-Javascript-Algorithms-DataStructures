@@ -175,3 +175,11 @@
 # 2. Edge - connection between nodes
 # 3. Weighted/Unweighted - values assigned
 # 4. Directed(insta)/Undirected(fb) - 
+# Traversal uses -
+# 1. Peer to peer networking
+# 2. Web crawlers
+# 3. Finding 'closest' matches/recommendations
+# 4. Shortest path problems
+#   -  GPS navigation
+#   - Solving mazes
+#   - AI(shortest path to win the game)
