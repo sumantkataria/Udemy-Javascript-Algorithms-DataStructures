@@ -183,3 +183,11 @@
 #   -  GPS navigation
 #   - Solving mazes
 #   - AI(shortest path to win the game)
+
+# Dijkstra's Algorithm -
+# - finds the shortest path between 2 vertices on a graph
+# Uses -
+# 1. GPS - finding fastest route.
+# 2. Network routing - finds open shortest path for data
+# 3. Biology - used to model the spread of viruses among humans
+# 4. Airline tickets - finding cheapest route to your destination.
