@@ -191,3 +191,9 @@
 # 2. Network routing - finds open shortest path for data
 # 3. Biology - used to model the spread of viruses among humans
 # 4. Airline tickets - finding cheapest route to your destination.
+
+# Dynamic Programming -
+# - method for solving complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once & storing their solutions.
+# Used with problems having -
+# 1. Optimal substructure - if an optimal solution can be constructed from optimal solutions of its subproblems
+# 2. Overlapping subproblems - if it can be broken into subproblems that can be reused several times
