@@ -57,4 +57,28 @@
 # Partition Tolerance - horizontally scale the system easily
 
 # Caching
+# horizontally scaled servers
+# appropriate for applications with more reads than writes
+# expiration policy dictates how long data is cached
+# hotspots can be a problem
+#
+# Cache Eviction policies
+# 1. Least Recently Used(LRU)
+# 2. Least Frequently Used(LFU)
+# 3. First In First Out(FIFO)
+#
+# Caching technologies
+# Memcached - in-memory key value store, open source
+# Redis - adds more features, advanced data structures, snapshots replications
+# NCache - made for .net, Java, Node.js
+# EhCache - Java, just a distributed map
+# ElastiCache - AWS solution, fully managed RedisCache or MemCache
+#
+# Content Delivery Networks(CDNs)
+# allows to distribute the data serving globally from local resources
+# geographically distributed fleet of servers that are serving mostly static data from the websites
+# limited computation may be available too
+# CDN providers - AWS CloudFront, Google Cloud CDN, Microsoft Azure CDN, Akamai, CloudFlare etc
+
+# Resiliency
 # 
