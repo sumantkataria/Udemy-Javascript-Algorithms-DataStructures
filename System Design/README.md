@@ -34,8 +34,8 @@
 # - a formal schema may not be needed
 # - examples - mongoDB, DynamoDB, Cassandra, HBase
 #
-# Normalized data - less storage space, more lookups, updates in 1 place
-# Denormalized data(perforamce & scalability) = more storage space, one lookup, updates are hard
+# Normalized data - less storage space, more lookups, updates in 1 place(separate tables)
+# Denormalized data(perforamce & scalability) = more storage space, one lookup, updates are hard(same table)
 
 # Data Lakes
 # Just throw all of your raw data into some big data repository or big distributed file storage system. And data organized as log files are raw. And it's called Data lake.
@@ -81,4 +81,14 @@
 # CDN providers - AWS CloudFront, Google Cloud CDN, Microsoft Azure CDN, Akamai, CloudFlare etc
 
 # Resiliency
-# 
+# surviving even if the entire system/region goes down
+# handle the failure
+# - secondary backup servers need to be spread across multiple racks, availability zones & regions.
+# - make sure the system has enough capacity to handle a failure at any reasonable scale(means overprovisioning OR having more servers on hand than you need) 
+# - need to balance budget vs availability(provisioning a new server from an offsite backup should be good enough)
+
+# Scaling Data
+# distributed storage solutions
+# services for scalable, available, secure, fast object storage
+# highly durable
+# E.g. Amazon S3, Google Cloud Storage, Microsoft Azure, Hadoop HDFS
