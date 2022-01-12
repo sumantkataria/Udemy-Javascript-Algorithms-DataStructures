@@ -92,3 +92,81 @@
 # services for scalable, available, secure, fast object storage
 # highly durable
 # E.g. Amazon S3, Google Cloud Storage, Microsoft Azure, Hadoop HDFS
+
+# Message Queue as Scaling tool
+# mechanism for decoupling producers & consumers of data. It's sort of buffer we can use to make sure things don't get backed up in a larger system.
+# - helpful as atleast the data gets backed up & not lost.
+# E.g. Amazon SQS service
+
+# Apache Spark
+# important tool for processing, streaming & transforming large amounts of data either in a batch process or in real time.
+# distributed processing framework for big data
+# in-memory caching, optimized query execution
+# supports Java, Scala, Python & R
+# supports code reuse across
+#   - batch processing
+#   - interactive queries(Spark SQL)
+#   - real-time analytics
+#   - machine learning(MLLib)
+#   - graph processing
+# spark streaming (integrated with Kinesis, Kafka)
+# spark is not meant for OLTP(online transaction processing)
+
+# Cloud Computing
+#                   AWS                 Google Cloud                        Microsoft Azure
+# Storage -         S3                  Cloud Storage                       Disk, Blob or Data lake storage
+# Compute -         EC2                 Compute Engine                      Virtual Machines
+# NoSQL -           DynamoDB            Bigtable                            CosmosDB/Table Storage
+# Containers -      Kubernetes/ECR/ECS  Kubernetes                          Kubernetes
+# Data Streams -    Kinesis             Data Flow                           Stream Analytics
+# Spark/Hadoop -    EMR                 Dataproc                            Databrics
+# Data warehouse -  Redshift            BigQuery                            Azure SQL/Database
+# Caching -         Elasticache(Redis)  Memorystore(redis or Memcached)     Redis
+#
+# Designing a Date WareHouse for Log data with AWS
+# 1. Serverless -
+#   - Server Logs --> Amazon Kinesis Data Firehouse --> Amazon S3 --> AWS Glue --> Amazon Athena
+# 2. Managed -
+#   - Server Logs --> Amazon Kinesis Data Firehouse --> Amazon S3 --> Amazon Redshift --> Amazon QuickSight
+#
+# Hybrid Cloud
+# combine own data centers(on-prem or private cloud) with a public cloud(AWS, Google, Azure etc)
+# allows easy scaling of on-prem systems
+# allows for regulations that require certain data to be on-premises
+# requires bridges between your data center & the cloud
+# "multi cloud" - more than one public cloud provider
+
+# Design Interview Strategies
+# 1. Working Backwards
+#   - starting from customer experience to define your requirements
+#   - YouTube example:
+#       -- How will users discover videos? Do we need to think about building a search engine? A recommender engine? An advertising engine?
+#       -- Limit the scope.
+#       -- Understand the customer experience
+#       -- Identify WHO are the customers
+#       -- WHAT are their use cases
+#       -- WHICH use cases we need to concern us with
+#       -- CLARIFY THE REQUIREMENTS
+# 2. Defining scaling requirements
+#   - Define the scale of the system. Hundered of users? Or millions?
+#   - Scale of data. Hundreds of videos? Millions?
+#   - YouTube example:
+#       -- Need for horizontal partitioning
+#       -- How often users are coming? Users frequency ratio? Transaction rate to support?
+# 3. Defining latency requirements
+#   - How fast is fast enough?
+#       -- Need for caching & CDN usage. Also, a tool for scaling.
+#   - YouTube example:
+#       -- caching video recommendations
+#       -- caching video metadata, descriptions etc
+# 4. Defining availability requirements
+#   - How much downtime can we tolerate?
+#       -- Is being down a threat to the business? Or just an inconvenience?
+#       -- If priority, then need to design for high availability. Opt for redundancy across many regions/racks/data centers rather for simplicity or frugality.
+#       -- Look for single points of failure.
+# 5. Think Out Loud
+# 6. Sketching out your design
+#   - Identify bottlenecks
+#   - Maintainence costs
+#   - Costs concerns
+#   - Tradeoff's
