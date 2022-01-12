@@ -52,17 +52,17 @@
 # 3. Can quickly be accessed at a specific index.
 
 # Linked List - 
-# 1. Memory Management benefits-
-# - Data does not have to be stored together.
+# Memory Management benefits-
+# 1. Data does not have to be stored together.
 # Features -
 # 1. Do not have indexes.
 # 2. Connected via nodes with a next pointer.
 # 3. Random access not allowed.
-
-# 1. Fast at Storing data & not retrieving
-# 2. Maintain Head & Tail of LL
-# 3. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
-# 4. Search Linked List(Time Complexity - O(n))
+# 4. Fast at Storing data & not retrieving
+# 5. Maintain Head & Tail of LL
+# 6. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
+# 7. Search Linked List(Time Complexity - O(n))
+# 8. Useful for Deques
 
 # BIG O - Singly Linked List -
 # 1. Insertion - O(1)
