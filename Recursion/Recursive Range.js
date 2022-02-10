@@ -3,6 +3,6 @@
 // recursiveRange(10) // 55 
 
 function recursiveRange(num) {
-    if(num === 0) return 0
+    if(num === 1) return num
     return num + recursiveRange(--num)
-} 
+}
