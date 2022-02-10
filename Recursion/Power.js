@@ -4,6 +4,5 @@
 
 function power(num, multiplier){
     if(multiplier === 0) return 1
-    if(multiplier === 1) return num
     return num = num*power(num, --multiplier)
 }
