@@ -3,10 +3,9 @@
 // fib(28) // 317811
 // fib(35) // 9227465
 
-function fib(num, sum, count = 1, first = 0, second = 1) {
-    if(num === count) return second
-    sum = first + second; first = second; second = sum 
-    return fib(num, sum, ++count, first, second)
+function fib(num, sum, count=1, first=1,second=1) {
+    if(num === count) return first
+    return fib(num, sum = first + second, ++count, first = second, second = sum)
 }
 
 // Alternate Solution
