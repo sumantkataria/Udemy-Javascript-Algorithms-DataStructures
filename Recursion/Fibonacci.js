@@ -9,7 +9,7 @@ function fib(num, sum, count=1, first=1,second=1) {
 }
 
 // Alternate Solution
-// function fib(n) s{
+// function fib(n) {
 //     if (n <= 2) return 1;
 //     return fib(n-1) + fib(n-2);
 // }
