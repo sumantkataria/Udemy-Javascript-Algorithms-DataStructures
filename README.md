@@ -11,6 +11,24 @@
 # - Strings require O(n) space(where n is the string length)
 # - Reference types are generally O(n), where n is the length(for arrays) or the number of keys(for objects)
 # Big-O Cheat Sheet -  https://www.bigocheatsheet.com/
+# Rules
+    - Constants doesn't matter.
+    - Smaller terms don't matter.
+    - Arithmetic operations are constant.
+    - Variable assignment is constant.
+    - Accessing elements in an Array is constant.
+    - In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
+# Objects - when ordering is not required, objects are excellent choice.
+# Big O of Objects -
+# 1. Insertion - O(1)
+# 2. Removal - O(1)
+# 3. Searching - O(N)
+# 4. Access - O(1)
+# Big O of Object Methods -
+# 1. Object.keys - O(N)
+# 2. Object.values - O(N)
+# 3. Object.entries - O(N)
+# 4. hasOwnProperty - O(1)
 
 # Problem Solving Patterns -
 # 1. Frequency Counters -
