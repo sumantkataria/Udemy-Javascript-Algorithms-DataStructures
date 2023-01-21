@@ -18,6 +18,7 @@
     - Variable assignment is constant.
     - Accessing elements in an Array is constant.
     - In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
+
 # Objects - when ordering is not required, objects are excellent choice.
 # Big O of Objects -
 # 1. Insertion - O(1)
@@ -29,6 +30,16 @@
 # 2. Object.values - O(N)
 # 3. Object.entries - O(N)
 # 4. hasOwnProperty - O(1)
+
+# Arrays -
+# 1. Indexed in Order.
+# 2. Insertion & Deletion can be expensive.
+# 3. Can quickly be accessed at a specific index.
+# Big O of Arrays -
+# 1. Insertion - O(N) start of array, O(1) end of array
+# 2. Removal - O(N) start of array, O(1) end of array
+# 3. Searching - O(N)
+# 4. Access - O(1)
 
 # Problem Solving Patterns -
 # 1. Frequency Counters -
@@ -63,11 +74,6 @@
 # Recursion -
 # - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
 # - Used in Object traversals.
-
-# Arrays -
-# 1. Indexed in Order.
-# 2. Insertion & Deletion can be expensive.
-# 3. Can quickly be accessed at a specific index.
 
 # Linked List - 
 # Memory Management benefits-
