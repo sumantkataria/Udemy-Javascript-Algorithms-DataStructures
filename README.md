@@ -1,14 +1,12 @@
 # Udemy-Javascript-Algorithms-DataStructures
 
     - Solution to various problems in Udemy for Algorithms &amp; Data Structures in JavaScript
-
-# Data Structures are a way of Organising data that is stored in a computer or database
-
+    - Data Structures are a way of Organising data that is stored in a computer or database
     - Each type of Data structure represents a different way of organising the data
     - Have big impact on how performant, quick & efficiently a program runs
     - Measures number of operations
 
-# Space compexity -
+# Space compexity
 
     - Primitives are constant space.
     - Strings require O(n) space(where n is the string length)
@@ -24,7 +22,9 @@
     - Accessing elements in an Array is constant.
     - In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop.
 
-# Objects - when ordering is not required, objects are excellent choice.
+# Objects
+
+    - when ordering is not required, objects are excellent choice.
 
     - Big O of Objects -
     1. Insertion - O(1)
@@ -38,20 +38,19 @@
     3. Object.entries - O(N)
     4. hasOwnProperty - O(1)
 
-# Arrays -
+# Arrays
 
     1. Indexed in Order.
     2. Insertion & Deletion can be expensive.
     3. Can quickly be accessed at a specific index.
 
-# Big O of Arrays -
-
+    - Big O of Arrays -
     1. Insertion - O(N) start of array, O(1) end of array
     2. Removal - O(N) start of array, O(1) end of array
     3. Searching - O(N)
     4. Access - O(1)
 
-# Problem Solving Patterns -
+# Problem Solving Patterns
 
     1. Frequency Counters -
     - This pattern uses objects or sets to collect values/frequencies of values
@@ -69,27 +68,19 @@
 
 # Searching
 
-# - Searching is the process of finding item from the collection/list.
+    - Searching is the process of finding item from the collection/list.
 
 # Sorting
 
-# -Sorting is the process of rearranging the items in the collection(e.g. an array) so that the items are in some kind of order.
-
-# Bubble Sort - O(n^2)
-
-# Insertion Sort - O(n^2)
-
-# Selection Sort - O(n^2)
-
-# Merge Sort - O(n\*logn)
-
-# Quick Sort - O(n\*logn)
-
-# Radix Sort - O(n\*logn)
-
-# Comparison - https://www.toptal.com/developers/sorting-algorithms
-
-# Radix Sort - Sorts numbers only.
+    - Sorting is the process of rearranging the items in the collection(e.g. an array) so that the items are in some kind of order.
+    - Bubble Sort - O(n^2)
+    - Insertion Sort - O(n^2)
+    - Selection Sort - O(n^2)
+    - Merge Sort - O(n\*logn)
+    - Quick Sort - O(n\*logn)
+    - Radix Sort - O(n\*logn)
+    - Comparison - https://www.toptal.com/developers/sorting-algorithms
+    - Radix Sort - Sorts numbers only.
 
 # Recursion -
 
