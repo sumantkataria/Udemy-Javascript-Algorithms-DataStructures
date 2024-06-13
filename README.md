@@ -1,6 +1,6 @@
 # Udemy-Javascript-Algorithms-DataStructures
 
-    - Solution to various problems in Udemy for Algorithms &amp; Data Structures in JavaScript
+    - Solution to various problems in Udemy for Algorithms and Data Structures in JavaScript
     - Data Structures are a way of Organising data that is stored in a computer or database
     - Each type of Data structure represents a different way of organising the data
     - Have big impact on how performant, quick & efficiently a program runs
@@ -24,7 +24,7 @@
 
 # Objects
 
-    - when ordering is not required, objects are excellent choice.
+    - when ordering is not required & need fast access, insertion & removal, objects are excellent choice.
 
     - Big O of Objects -
     1. Insertion - O(1)
@@ -49,6 +49,15 @@
     2. Removal - O(N) start of array, O(1) end of array
     3. Searching - O(N)
     4. Access - O(1)
+    5. push - O(1)
+    6. pop - O(1)
+    7. shift - O(N)
+    8. unshift - O(N)
+    9. concat - O(N)
+    10. slice - O(N)
+    11. splice - O(N)
+    12. sort - O(N * log N)
+    13. forEach/map/filter/reduce - O(N)
 
 # Problem Solving Patterns
 
@@ -84,268 +93,158 @@
 
 # Recursion -
 
-# - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
-
-# - Used in Object traversals.
+    - Used in JSON.parse, JSON.stringify, document.getElementById & DOM traversal algorithms.
+    - Used in Object traversals.
+    Pure recursion tips -
+    - For arrays, use methods like slice, spread operator & concat that make copies of arrays so you do not mutate them.
+    - Strings are immutable, so you need to use methods like slice, substr or substring to make copies of strings.
+    - To make copies of objects use Object.assign or the spread operator.
 
 # Linked List -
 
-# Memory Management benefits-
-
-# 1. Data does not have to be stored together.
-
-# Features -
-
-# 1. Do not have indexes.
-
-# 2. Connected via nodes with a next pointer.
-
-# 3. Random access not allowed.
-
-# 4. Fast at Storing data & not retrieving
-
-# 5. Maintain Head & Tail of LL
-
-# 6. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
-
-# 7. Search Linked List(Time Complexity - O(n))
-
-# 8. Useful for Deques
-
-# BIG O - Singly Linked List -
-
-# 1. Insertion - O(1)
-
-# 2. Deletion - O(1) or O(n)
-
-# 3. Searching - O(n)
-
-# 4. Accessing - O(n)
-
-# BIG O - Doubly Linked List -
-
-# 1. Insertion - O(1)
-
-# 2. Deletion - O(1)
-
-# 3. Searching - O(n)
-
-# 4. Accessing - O(n)
+    - Memory Management benefits
+    - Data does not have to be stored together.
+    Features -
+    1. Do not have indexes.
+    2. Connected via nodes with a next pointer.
+    3. Random access not allowed.
+    4. Fast at Storing data & not retrieving
+    5. Maintain Head & Tail of LL
+    6. Add/Remove new Node to/from Head/Tail(Time Complexity - O(1))
+    7. Search Linked List(Time Complexity - O(n))
+    8. Useful for Deques
+    BIG O - Singly Linked List -
+    1. Insertion - O(1)
+    2. Deletion - O(1) or O(n)
+    3. Searching - O(n)
+    4. Accessing - O(n)
+    BIG O - Doubly Linked List -
+    1. Insertion - O(1)
+    2. Deletion - O(1)
+    3. Searching - O(n)
+    4. Accessing - O(n)
 
 # Stacks -
 
-# - LIFO(Last In First Out) data structure.
-
-# - Can be implemented via Array.
-
-# - push method to insert & pop method to remove
-
-# - unshift method to insert & shift method to remove
-
-# - not a built-in structure in Javascript
-
-# BIG O - Stacks -
-
-# 1. Insertion - O(1)
-
-# 2. Deletion - O(1)
-
-# 3. Searching - O(n)
-
-# 4. Accessing - O(n)
+    - LIFO(Last In First Out) data structure.
+    - Can be implemented via Array.
+    - push method to insert & pop method to remove
+    - unshift method to insert & shift method to remove
+    - not a built-in structure in Javascript
+    BIG O - Stacks -
+    1. Insertion - O(1)
+    2. Deletion - O(1)
+    3. Searching - O(n)
+    4. Accessing - O(n)
 
 # Queues -
 
-# FIFO(First In First Out) data structure.
-
-# - Can be implemented via Array.
-
-# - push method to insert & shift method to remove
-
-# - unshift method to insert & pop method to remove
-
-# - BIG O - Queues -
-
-# 1. Insertion - O(1)
-
-# 2. Deletion - O(1)
-
-# 3. Searching - O(n)
-
-# 4. Accessing - O(n)
+    - FIFO(First In First Out) data structure.
+    - Can be implemented via Array.
+    - push method to insert & shift method to remove
+    - unshift method to insert & pop method to remove
+    - BIG O - Queues -
+    1. Insertion - O(1)
+    2. Deletion - O(1)
+    3. Searching - O(n)
+    4. Accessing - O(n)
 
 # Trees -
 
-# Non-linear Data Structure that consists of nodes in a parent/child relationship.
-
-# Terminologies -
-
-# 1. Root - Top node of a tree.
-
-# 2. Child - Node directly connected to another node when moving away from the root.
-
-# 3. Parent - converse notion of the child.
-
-# 4. Siblings - group of nodes with the same parent.
-
-# 5. Leaf - Node with no children.
-
-# 6. Edge - connection between one node & another.
-
-# Applications-
-
-# 1. HTML DOM
-
-# 2. Network Routing(broadcast)
-
-# 3. Abstract syntax tree
-
-# 4. Artifical Intelligence
-
-# 5. Computer file system(Windows folder/file structure)
-
-# 6. JSON structure
-
-# Types -
-
-# 1. Trees
-
-# 2. Binary Trees(max 2 child nodes)
-
-# 3. Binary Search Trees(special type of binary trees)(sorted)(left node is smaller than parent & every right node is greater than parent)
-
-# BIG O - Binary Search Tree -
-
-# 1. Insertion - O(log n)
-
-# 2. Searching - O(log n)
-
-# Tree Traversal -
-
-# Applications - DFS -
-
-# InOrder - Used commonly with BST.
-
-# PreOrder - Used in export cases (where clone/duplicate tree or flatten it out & then import)
+    Non-linear Data Structure that consists of nodes in a parent/child relationship.
+    Terminologies -
+    1. Root - Top node of a tree.
+    2. Child - Node directly connected to another node when moving away from the root.
+    3. Parent - converse notion of the child.
+    4. Siblings - group of nodes with the same parent.
+    5. Leaf - Node with no children.
+    6. Edge - connection between one node & another.
+    Applications-
+    1. HTML DOM
+    2. Network Routing(broadcast)
+    3. Abstract syntax tree
+    4. Artifical Intelligence
+    5. Computer file system(Windows folder/file structure)
+    6. JSON structure
+    Types -
+    1. Trees
+    2. Binary Trees(max 2 child nodes)
+    3. Binary Search Trees(special type of binary trees)(sorted)(left node is smaller than parent & every right node is greater than parent)
+    BIG O - Binary Search Tree -
+    1. Insertion - O(log n)
+    2. Searching - O(log n)
+    Tree Traversal -
+    Applications - DFS -
+    InOrder - Used commonly with BST.
+    PreOrder - Used in export cases (where clone/duplicate tree or flatten it out & then import)
 
 # Heaps -
 
-# Special tree-based data structure in which the tree is a complete binary tree.
-
-# Types -
-
-# 1. MaxBinaryHeap - Parent nodes are larger than the children. And left children are fille out first.
-
-# 2. MinBinaryHeap - Parent nodes are smaller than the children.
-
-# Storing heaps -
-
-# - For any index of an array n...
-
-# - Left child is stored at 2n + 1.
-
-# - Right child is stored at 2n + 2.
-
-# - For any child at index n...
-
-# - It's parent is at index (n-1)/2.
-
-# Priority Queues -
-
-# - data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities.
-
-# - can be implemented via Heaps.
-
-# BIG O - Binary Heaps -
-
-# 1. Insertion - O(log n)
-
-# 2. Deletion - O(log n)
-
-# 3. Search - O(n)
+    Special tree-based data structure in which the tree is a complete binary tree.
+    Types -
+    1. MaxBinaryHeap - Parent nodes are larger than the children. And left children are fille out first.
+    2. MinBinaryHeap - Parent nodes are smaller than the children.
+    Storing heaps -
+    - For any index of an array n...
+    - Left child is stored at 2n + 1.
+    - Right child is stored at 2n + 2.
+    - For any child at index n...
+    - It's parent is at index (n-1)/2.
+    Priority Queues -
+    - data structure where each element has a priority. Elements with higher priorities are served before elements with lower priorities.
+    - can be implemented via Heaps.
+    BIG O - Binary Heaps -
+    1. Insertion - O(log n)
+    2. Deletion - O(log n)
+    3. Search - O(n)
 
 # Hash Tables -
 
-# - Access data quickly
-
-# - used to store key-value pairs.
-
-# - like arrays, but keys are not ordered.
-
-# - very fast for all operations - finding values, adding new values & removing values.
-
-# - JS has Objects & Maps.
-
-# BIG O - Hash Tables -
-
-# 1. Insertion - O(1)
-
-# 2. Deletion - O(1)
-
-# 3. Access - O(1)
+    - Access data quickly
+    - used to store key-value pairs.
+    - like arrays, but keys are not ordered.
+    - very fast for all operations - finding values, adding new values & removing values.
+    - JS has Objects & Maps.
+    BIG O - Hash Tables -
+    1. Insertion - O(1)
+    2. Deletion - O(1)
+    3. Access - O(1)
 
 # Graphs -
 
-# - a DS consists of a finite set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
-
-# Applications -
-
-# 1. Social networks
-
-# 2. Location/mapping
-
-# 3. Routing algorithms
-
-# 4. Visual Hierarchy
-
-# 5. File system optimizations
-
-# Terms -
-
-# 1. Vertex - a node
-
-# 2. Edge - connection between nodes
-
-# 3. Weighted/Unweighted - values assigned
-
-# 4. Directed(insta)/Undirected(fb) -
-
-# Traversal uses -
-
-# 1. Peer to peer networking
-
-# 2. Web crawlers
-
-# 3. Finding 'closest' matches/recommendations
-
-# 4. Shortest path problems
-
-# - GPS navigation
-
-# - Solving mazes
-
-# - AI(shortest path to win the game)
+    - a DS consists of a finite set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
+    Applications -
+    1. Social networks
+    2. Location/mapping
+    3. Routing algorithms
+    4. Visual Hierarchy
+    5. File system optimizations
+    Terms -
+    1. Vertex - a node
+    2. Edge - connection between nodes
+    3. Weighted/Unweighted - values assigned
+    4. Directed(insta)/Undirected(fb) -
+    Traversal uses -
+    1. Peer to peer networking
+    2. Web crawlers
+    3. Finding 'closest' matches/recommendations
+    4. Shortest path problems
+    - GPS navigation
+    - Solving mazes
+    - AI(shortest path to win the game)
 
 # Dijkstra's Algorithm -
 
-# - finds the shortest path between 2 vertices on a graph
-
-# Uses -
-
-# 1. GPS - finding fastest route.
-
-# 2. Network routing - finds open shortest path for data
-
-# 3. Biology - used to model the spread of viruses among humans
-
-# 4. Airline tickets - finding cheapest route to your destination.
+    - finds the shortest path between 2 vertices on a graph
+    Uses -
+    1. GPS - finding fastest route.
+    2. Network routing - finds open shortest path for data
+    3. Biology - used to model the spread of viruses among humans
+    4. Airline tickets - finding cheapest route to your destination.
 
 # Dynamic Programming -
 
-# - method for solving complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once & storing their solutions.
-
-# Used with problems having -
-
-# 1. Optimal substructure - if an optimal solution can be constructed from optimal solutions of its subproblems
-
-# 2. Overlapping subproblems - if it can be broken into subproblems that can be reused several times
+    - method for solving complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once & storing their solutions.
+    Used with problems having -
+    1. Optimal substructure - if an optimal solution can be constructed from optimal solutions of its subproblems
+    2. Overlapping subproblems - if it can be broken into subproblems that can be reused several times
